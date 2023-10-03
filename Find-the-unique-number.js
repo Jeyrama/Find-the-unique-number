@@ -8,3 +8,6 @@ Examples:
 
 It’s guaranteed that array contains at least 3 numbers.
 */
+
+
+// Solution
