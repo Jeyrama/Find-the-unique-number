@@ -11,3 +11,9 @@ It’s guaranteed that array contains at least 3 numbers.
 
 
 // Solution
+
+function findUniq(arr) {
+  let [a,b,c] = arr.slice(0,3);
+  if (a != b && a != c) return a;
+  for (let x of arr) if (x != a) return x;
+}
