@@ -17,3 +17,5 @@ function findUniq(arr) {
   if (a != b && a != c) return a;
   for (let x of arr) if (x != a) return x;
 }
+
+// or
